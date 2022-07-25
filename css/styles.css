@@ -1,0 +1,172 @@
+/* Tudo */
+
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+/* Elementos do Top Container */
+
+.top-container{
+  padding-top: 100px;
+  margin-bottom: 100px;
+  background-color: #E4F9F5;
+  position: relative;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+span{
+  text-decoration: underline;
+}
+
+
+
+/* Elementos do Mid Container */
+
+.profile{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bio{
+  width: 50%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+
+hr{
+  border-style: dotted none none;
+  border-width: 15px;
+  width: 10%;
+  color: #EAF6F6;
+  margin: 100px auto;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.message-contact{
+  width: 35%;
+  margin: 40px auto 60px;
+  line-height: 2;
+}
+
+/* Elementos do Bot Container */
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin-top: 100px;
+  padding: 50px 0 20px;
+  position: relative;
+}
+
+.footer-copyright{
+  color: #EAF6F6;
+  padding: 20px 0;
+}
+
+/* Imagens */
+.pfp{
+  width: 50%;
+}
+
+.computer{
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.controller{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.talk{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+/* Botão criado utilzando o site  css3buttongenerator */
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
